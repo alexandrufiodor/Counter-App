@@ -1,7 +1,6 @@
-import {CounterNum} from "./CounterNum/CounterNum";
-import {Button} from "../Buttons/Button";
 import React from "react";
-import {Simulate} from "react-dom/test-utils";
+import {Button} from "../Buttons/Button";
+import {CounterNum} from "./CounterNum/CounterNum";
 
 type DisplayValuePropsType = {
     error: string
