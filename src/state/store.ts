@@ -6,7 +6,7 @@ import {loadState, saveState} from "../utils/utils";
 
 export const rootReducer = combineReducers({
     settings: settingsReducer,
-}) 
+})
 
 export type AppRootState = ReturnType<typeof rootReducer>
 
