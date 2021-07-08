@@ -11,25 +11,7 @@ function App() {
     let [error, setError] = useState('');
     let [settingDisabled, setSettingDisabled] = useState(false);
 
-    //
-    // useEffect(() => {
-    //     let countAsString = localStorage.getItem('count')
-    //     let maxValueAsString = localStorage.getItem('maxValue')
-    //     let startValueAsString = localStorage.getItem('startValue')
-    //     if (countAsString && maxValueAsString && startValueAsString) {
-    //
-    //         setCount(JSON.parse(countAsString))
-    //         setMaxValue(JSON.parse(maxValueAsString))
-    //         setStartValue(JSON.parse(startValueAsString))
-    //     }
-    // }, [])
-
-    //
-    // useEffect(() => {
-    //     localStorage.setItem('count', JSON.stringify(count))
-    //     localStorage.setItem('maxValue', JSON.stringify(maxValue))
-    //     localStorage.setItem('startValue', JSON.stringify(startValue))
-    // }, [count, maxValue, startValue])
+  
 
 
     const resetCallback = () => {
